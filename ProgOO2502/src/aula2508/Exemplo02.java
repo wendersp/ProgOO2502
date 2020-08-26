@@ -64,6 +64,9 @@ public class Exemplo02 {
         System.out.println("Nome Produto.: " + nomeProduto);
         System.out.println("Preço........: " + preco);
         System.out.println("Origem.......: " + origem);
+        JOptionPane.showMessageDialog(null, "Nome Produto.: " + nomeProduto 
+                +"\nPreço........: " + preco
+                +"\nOrigem.......: " + origem );
        
        
     }
