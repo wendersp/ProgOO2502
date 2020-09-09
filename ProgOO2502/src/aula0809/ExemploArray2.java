@@ -22,7 +22,6 @@ public class ExemploArray2 {
         
         System.out.println("A soma dos valores é " + soma);
         
-
         
     }
     
