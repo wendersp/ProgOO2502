@@ -17,6 +17,8 @@ package aula010920;
 
 import javax.swing.JOptionPane;
 
+
+
 public class ExemploVoto {
 
     public static void main(String[] args) {
@@ -27,6 +29,7 @@ public class ExemploVoto {
         int voto;
         //entrada de dados;
         voto = Integer.parseInt(JOptionPane.showInputDialog("Digite o voto.(para finalizar digite 0)"));
+        
         while (voto != 0) {
             totalVotos++;
            /*
@@ -70,6 +73,7 @@ public class ExemploVoto {
             }
             
             voto = Integer.parseInt(JOptionPane.showInputDialog("Digite o voto.(para finalizar digite 0)"));
+            
         }
         /*
         Calcular o porcentual dos votos em branco e nulos sobre o total 
